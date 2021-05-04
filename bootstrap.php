@@ -8,6 +8,8 @@ $path = $_SERVER['PATH_INFO'] ??  '/';
 $route = new App\Router($method, $path);
 $route->get('/ola-{nome}',function($params){ return "Bem vindo(a) {$params[1]}"; });
 
+$route->get('/', 'App\Controller\HomeController::index');
+
 $result = $route->handler();
 
 if (!$result){

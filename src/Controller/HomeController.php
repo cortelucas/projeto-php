@@ -6,7 +6,7 @@ namespace App\Controller;
 
 class HomeController
 {
-    public function index(){
-
+    public static function index(){
+        require '../src/View/Home/index.php';
     }
 }
