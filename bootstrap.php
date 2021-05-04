@@ -9,6 +9,8 @@ $route = new App\Router($method, $path);
 $route->get('/ola-{nome}',function($params){ return "Bem vindo(a) {$params[1]}"; });
 
 $route->get('/', 'App\Controller\HomeController::index');
+$route->get('/categorias', 'App\Controller\CategoryController::index');
+$route->get('/produtos', 'App\Controller\ProductsController::index');
 
 $result = $route->handler();
 
