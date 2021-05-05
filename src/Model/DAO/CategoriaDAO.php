@@ -69,6 +69,12 @@ class CategoriaDAO
 
     public function consultar()
     {
+        try {
+            $sql = "SELECT * FROM categoria";
+            return $this->dao->getConexao()->query($sql);
+        } catch (Exception $e) {
+            return 0;
+        }
     }
 
     public function consultarPorID(int $id)
