@@ -57,6 +57,14 @@ class CategoriaDAO
 
     public function excluir(int $id)
     {
+        try {
+            $sql = "DELETE FROM categoria WHERE id = :id";
+            $p = $this->dao->getConexao()->prepare($sql);
+            $p->bindValue(":id", $id);
+            return $p->execute();
+        } catch (Exception $e) {
+            return 0;
+        }
     }
 
     public function consultar()
