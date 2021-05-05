@@ -3,6 +3,7 @@
 
 namespace App\Model\DAO;
 
+use PDO;
 
 class DAO
 {
@@ -13,7 +14,7 @@ class DAO
      */
     public function __contruct()
     {
-        $conexao = new PDO("mysql:host=localhost; dbname=projeto-php", "root", "0612AnLu+");
+        $this->conexao = new PDO("mysql:host=localhost; dbname=projeto-php", "root", "0612AnLu+");
     }
 
     /**
