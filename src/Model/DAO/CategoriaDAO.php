@@ -43,6 +43,16 @@ class CategoriaDAO
 
     public function alterar(Categoria $categoria)
     {
+        try {
+            $sql = "UPDATE categoria SET descricao = :descricao WHERE id = :id";
+            $p = $this->dao->getConexao()->prepare($sql);
+            $p->bindValue(":id", $this->antiInjection($categoria->getId()));
+            $p->bindValue(":descricao", $this->antiInjection($categoria->getDescricao()));
+            return $p->execute();
+        } catch (Exception $e) {
+            return 0;
+        }
+
     }
 
     public function excluir(int $id)
