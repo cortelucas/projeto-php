@@ -4,7 +4,7 @@
 namespace App\Controller;
 
 
-class ProductsController
+class ProdutosController
 {
     public static function index(){
         require '../src/View/Produtos/index.php';
