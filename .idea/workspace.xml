@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5741019-2e14-4d13-863d-f94952a2ec58" name="Default Changelist" comment="- configuração do autoload">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <workItem from="1620166108140" duration="12634000" />
       <workItem from="1620212195139" duration="1421000" />
       <workItem from="1620770715424" duration="2373000" />
-      <workItem from="1620818143650" duration="1959000" />
+      <workItem from="1620818143650" duration="6241000" />
     </task>
     <task id="LOCAL-00001" summary="-criação do composer.json">
       <created>1619607765693</created>
@@ -225,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620820818947</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="- configuração do autoload">
+      <created>1620820869800</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1620820869800</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
