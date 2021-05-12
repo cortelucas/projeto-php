@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5741019-2e14-4d13-863d-f94952a2ec58" name="Default Changelist" comment="- configuração do autoload">
-      <change afterPath="$PROJECT_DIR$/src/Router.php" afterDir="false" />
+    <list default="true" id="e5741019-2e14-4d13-863d-f94952a2ec58" name="Default Changelist" comment="- implementação da classe Routes.php">
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +62,7 @@
       <workItem from="1620166108140" duration="12634000" />
       <workItem from="1620212195139" duration="1421000" />
       <workItem from="1620770715424" duration="2373000" />
-      <workItem from="1620818143650" duration="6241000" />
+      <workItem from="1620818143650" duration="6767000" />
     </task>
     <task id="LOCAL-00001" summary="-criação do composer.json">
       <created>1619607765693</created>
@@ -232,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620820869800</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="- implementação da classe Routes.php">
+      <created>1620852096411</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1620852096411</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +280,7 @@
     <MESSAGE value="- correcao de codigo" />
     <MESSAGE value="- correcao de de nome de arquivo" />
     <MESSAGE value="- configuração do autoload" />
-    <option name="LAST_COMMIT_MESSAGE" value="- configuração do autoload" />
+    <MESSAGE value="- implementação da classe Routes.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="- implementação da classe Routes.php" />
   </component>
 </project>
