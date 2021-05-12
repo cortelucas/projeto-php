@@ -7,5 +7,10 @@
             "email": "corte1994.lc@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
     "require": {}
 }
